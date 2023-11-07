@@ -1,0 +1,14 @@
+header {
+  background-color: lightcoral;
+  border: 2px solid gray;
+}
+
+main {
+  background-color: lightblue;
+  border: 2px solid gray;
+}
+
+footer {
+  background-color: lightgoldenrodyellow;
+  border: 2px solid gray;
+}
