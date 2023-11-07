@@ -25,7 +25,7 @@ body {
 header {
   background-color: #000000;
   position: fixed;
-  padding: 5px 30px;
+  padding: 10px 30px;
   width: 100%;
   z-index: 999;
   box-shadow: 0 1px 2px #ffffff;
@@ -45,8 +45,8 @@ header a:active {
 }
 
 #logo {
-  width: 60px;
-  height: 60px;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
   position: relative;
 }
@@ -94,9 +94,8 @@ nav {
 
 main {
   background-color: #000000;
-  top: 70px;
   position: relative;
-
+  top: 100px;
   /* Forcing the main section to take up extra space with flex shorthand */
   flex: 1 0 auto;
 }
@@ -138,5 +137,13 @@ footer {
     border-radius: 50%;
     position: relative;
     left: 50px;
+  }
+
+  main {
+    background-color: #000000;
+    position: relative;
+    top: 150px;
+    /* Forcing the main section to take up extra space with flex shorthand */
+    flex: 1 0 auto;
   }
 }
