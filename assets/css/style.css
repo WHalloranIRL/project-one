@@ -1,11 +1,32 @@
+/* Reset Style */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* General and Utility Styles */
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header Styles */
+
 header {
   background-color: lightcoral;
   border: 2px solid gray;
 }
 
+/* Main Styles */
+
 main {
   background-color: lightblue;
   border: 2px solid gray;
+  /* Forcing the main section to take up extra space with flex shorthand */
+  flex: 1 0 auto;
 }
 
 footer {
