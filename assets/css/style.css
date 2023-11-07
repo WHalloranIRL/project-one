@@ -45,8 +45,8 @@ header a:active {
 }
 
 #logo {
-  width: 80px;
-  height: 80px;
+  width: 60px;
+  height: 60px;
   border-radius: 50%;
   position: relative;
 }
@@ -94,7 +94,7 @@ nav {
 
 main {
   background-color: #000000;
-  top: 90px;
+  top: 70px;
   position: relative;
 
   /* Forcing the main section to take up extra space with flex shorthand */
@@ -105,4 +105,38 @@ main {
 
 footer {
   background-color: lightgoldenrodyellow;
+}
+
+/* Media Query Screens >= 768px Wide */
+
+@media (width >= 768px) {
+  nav {
+    display: block;
+    position: relative;
+    border: 0;
+    box-shadow: none;
+    width: fit-content;
+    padding-right: 20px;
+  }
+
+  #menu {
+    display: flex;
+    padding-right: 50px;
+    font-size: 1.2rem;
+  }
+  #menu > li {
+    padding: 10px;
+  }
+
+  .nav-toggle-label {
+    display: none;
+  }
+
+  #logo {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    position: relative;
+    left: 50px;
+  }
 }
