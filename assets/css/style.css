@@ -17,6 +17,7 @@ body {
   display: flex;
   flex-direction: column;
   font-family: "Nunito", sans-serif;
+  color: lightgray;
 }
 
 /* Header Styles */
@@ -24,10 +25,23 @@ body {
 header {
   background-color: #000000;
   position: fixed;
-  padding: 0 1rem;
+  padding: 5px 30px;
   width: 100%;
   z-index: 999;
   box-shadow: 0 1px 2px #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header a {
+  text-decoration: none;
+  color: inherit;
+}
+
+header a:hover,
+header a:active {
+  color: #ffffff;
 }
 
 #logo {
@@ -35,13 +49,53 @@ header {
   height: 80px;
   border-radius: 50%;
   position: relative;
-  top: 10px;
+}
+
+#menu {
+  list-style-type: none;
+  letter-spacing: 0.1rem;
+}
+
+.hidden {
+  display: none;
+}
+
+/* Nav Bar Styles With Dropdown Toggle*/
+
+nav {
+  position: absolute;
+  background-color: #000000;
+  left: 0;
+  padding-left: 5px;
+  width: 100%;
+  box-shadow: 0 1px 2px #ffffff;
+  /* Hides the nav elements until it is seleceted to open */
+  display: none;
+  top: 100%;
+}
+
+/* Nav Toggle To Display The Dropdown */
+
+#nav-toggle:checked ~ nav {
+  display: block;
+}
+
+/* Nav Toggle To Hide Checkbox */
+
+#nav-toggle {
+  display: none;
+}
+
+.nav-toggle-label {
+  font-size: 2rem;
 }
 
 /* Main Styles */
 
 main {
-  background-color: lightblue;
+  background-color: #000000;
+  top: 90px;
+  position: relative;
 
   /* Forcing the main section to take up extra space with flex shorthand */
   flex: 1 0 auto;
