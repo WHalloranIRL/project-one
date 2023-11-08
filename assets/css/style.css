@@ -116,24 +116,30 @@ main {
 
 .hero-cover-text {
   background: rgba(255, 255, 255, 0.7);
-  padding: 20px;
   position: absolute;
+  padding: 5px 15px;
   top: 20%;
   width: 85%;
   font-size: 2rem;
   color: black;
   text-transform: uppercase;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  box-shadow: 1px 5px 10px #767372;
 }
 
 .hero-p {
   background: rgba(255, 255, 255, 0.7);
-  padding: 20px;
+  padding: 10px 15px;
   position: absolute;
   top: 50%;
   width: 80%;
   right: 0;
   font-size: 1.5rem;
   color: black;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  box-shadow: 1px 5px 10px #767372;
 }
 
 /* Footer Styles */
