@@ -117,10 +117,10 @@ main {
 .hero-cover-text {
   background: rgba(255, 255, 255, 0.7);
   position: absolute;
-  padding: 5px 15px;
-  top: 20%;
+  padding: 20px 15px;
+  top: 35%;
   width: 85%;
-  font-size: 2rem;
+  font-size: 120%;
   color: black;
   text-transform: uppercase;
   border-top-right-radius: 30px;
@@ -130,12 +130,12 @@ main {
 
 .hero-p {
   background: rgba(255, 255, 255, 0.7);
-  padding: 10px 15px;
+  padding: 20px 15px;
   position: absolute;
-  top: 50%;
+  top: 60%;
   width: 80%;
   right: 0;
-  font-size: 1.5rem;
+  font-size: 110%;
   color: black;
   border-top-left-radius: 30px;
   border-bottom-left-radius: 30px;
@@ -199,7 +199,7 @@ footer {
 
   #hero-image {
     width: 100%;
-    height: auto;
+    height: 100vh;
     top: 0;
     position: relative;
   }
